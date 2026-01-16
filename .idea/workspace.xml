@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30c95f9b-7ba6-4289-9261-12faaeb80837" name="更改" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Distinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Peek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Sorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -33,6 +46,10 @@
     &quot;url&quot;: &quot;git@github.com:codegodborn/javalearning.git&quot;,
     &quot;accountId&quot;: &quot;96b69f97-b6a8-4383-88d3-44313799f7cb&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -59,16 +76,21 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+    &quot;应用程序.Distinct.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Filter.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Map.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Sorted.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Main" />
+  <component name="RunManager" selected="应用程序.Distinct">
+    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intermediate.Distinct" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lipenglin.*" />
+          <option name="PATTERN" value="com.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,14 +98,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Main" />
-      <module name="StreamLearning2" />
+    <configuration name="Limit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intermediate.Limit" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lipenglin.*" />
+          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Peek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intermediate.Peek" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Skip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intermediate.Skip" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intermediate.Sorted" />
+      <module name="Stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main (1)" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Distinct" />
+        <item itemvalue="应用程序.Skip" />
+        <item itemvalue="应用程序.Limit" />
+        <item itemvalue="应用程序.Peek" />
+        <item itemvalue="应用程序.Sorted" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +187,8 @@
       <updated>1768525163461</updated>
       <workItem from="1768525164636" duration="220000" />
       <workItem from="1768525571059" duration="374000" />
+      <workItem from="1768525957473" duration="699000" />
+      <workItem from="1768527101351" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -182,11 +246,38 @@
       <option name="project" value="LOCAL" />
       <updated>1768525769622</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1768526091694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768526091694</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1768527835358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768527835358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
