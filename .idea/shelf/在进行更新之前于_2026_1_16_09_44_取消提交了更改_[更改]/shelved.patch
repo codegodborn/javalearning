@@ -1,0 +1,414 @@
+Index: Stream/src/main/java/com/intermediate/Map.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Map.java b/Stream/src/main/java/com/intermediate/Map.java
+new file mode 100644
+--- /dev/null	(date 1768527824074)
++++ b/Stream/src/main/java/com/intermediate/Map.java	(date 1768527824074)
+@@ -0,0 +1,15 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class Map {
++    public static void main(String[] args) {
++        List<String> list = Arrays.asList("Hello", "World");
++        List<String> list2 = list.stream()
++                .map(String::toUpperCase)  // 把每个元素映射到toUpperCase函数
++                .collect(Collectors.toList());
++        System.out.println(list2);
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"30c95f9b-7ba6-4289-9261-12faaeb80837\" name=\"更改\" comment=\"Initial commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"future\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;codegodborn&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;git@github.com:codegodborn/javalearning.git&quot;,\r\n    &quot;accountId&quot;: &quot;96b69f97-b6a8-4383-88d3-44313799f7cb&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"38JkfQ0ZRYYWtDonI7OaBkcuimU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;future1&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/javalearning/javalearning&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,\r\n    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"应用程序.Main (1)\">\r\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lipenglin.Main\" />\r\n      <module name=\"Stream\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lipenglin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"1.8\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lipenglin.Main\" />\r\n      <module name=\"StreamLearning2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lipenglin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"应用程序.Main (1)\" />\r\n        <item itemvalue=\"应用程序.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"30c95f9b-7ba6-4289-9261-12faaeb80837\" name=\"更改\" comment=\"\" />\r\n      <created>1768525163461</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1768525163461</updated>\r\n      <workItem from=\"1768525164636\" duration=\"220000\" />\r\n      <workItem from=\"1768525571059\" duration=\"374000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525226954</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525226954</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525259390</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525259390</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525336879</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525336879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525535624</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525535624</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525635927</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525635927</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525750129</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525750129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1768525769622</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1768525769622</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 70366aa1fd10e7ef6316dce5a6a40b2cd18680a1)
++++ b/.idea/workspace.xml	(date 1768527510146)
+@@ -5,14 +5,27 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="30c95f9b-7ba6-4289-9261-12faaeb80837" name="更改" comment="Initial commit">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Distinct.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Filter.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/FlatMap.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Limit.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Map.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Peek.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Skip.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/lipenglin/Sorted.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -33,6 +46,10 @@
+     &quot;url&quot;: &quot;git@github.com:codegodborn/javalearning.git&quot;,
+     &quot;accountId&quot;: &quot;96b69f97-b6a8-4383-88d3-44313799f7cb&quot;
+   }
++}</component>
++  <component name="KubernetesApiPersistence">{}</component>
++  <component name="KubernetesApiProvider">{
++  &quot;isMigrated&quot;: true
+ }</component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 1
+@@ -42,29 +59,73 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;future1&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/javalearning/javalearning&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "future1",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "D:/javalearning/javalearning",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "模块",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "vue.rearranger.settings.migration": "true",
++    "应用程序.Distinct.executor": "Run",
++    "应用程序.Filter.executor": "Run",
++    "应用程序.Main (1).executor": "Run",
++    "应用程序.Main.executor": "Run",
++    "应用程序.Map.executor": "Run",
++    "应用程序.Sorted.executor": "Run"
+   }
+-}</component>
+-  <component name="RunManager" selected="应用程序.Main (1)">
+-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Main" />
++}]]></component>
++  <component name="RunManager" selected="应用程序.Distinct">
++    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Distinct" />
++      <module name="Stream" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.lipenglin.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Limit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Limit" />
++      <module name="Stream" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.lipenglin.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Peek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Peek" />
++      <module name="Stream" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.lipenglin.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Skip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Skip" />
+       <module name="Stream" />
+       <extension name="coverage">
+         <pattern>
+@@ -76,11 +137,9 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Main" />
+-      <module name="StreamLearning2" />
++    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.lipenglin.Sorted" />
++      <module name="Stream" />
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="com.lipenglin.*" />
+@@ -102,8 +161,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="应用程序.Main (1)" />
+-        <item itemvalue="应用程序.Main" />
++        <item itemvalue="应用程序.Distinct" />
++        <item itemvalue="应用程序.Skip" />
++        <item itemvalue="应用程序.Limit" />
++        <item itemvalue="应用程序.Peek" />
++        <item itemvalue="应用程序.Sorted" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -125,6 +187,8 @@
+       <updated>1768525163461</updated>
+       <workItem from="1768525164636" duration="220000" />
+       <workItem from="1768525571059" duration="374000" />
++      <workItem from="1768525957473" duration="699000" />
++      <workItem from="1768527101351" duration="405000" />
+     </task>
+     <task id="LOCAL-00001" summary="Initial commit">
+       <option name="closed" value="true" />
+@@ -182,11 +246,30 @@
+       <option name="project" value="LOCAL" />
+       <updated>1768525769622</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1768526091694</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1768526091694</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Initial commit" />
+Index: Stream/src/main/java/com/intermediate/FlatMap.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/FlatMap.java b/Stream/src/main/java/com/intermediate/FlatMap.java
+new file mode 100644
+--- /dev/null	(date 1768527824105)
++++ b/Stream/src/main/java/com/intermediate/FlatMap.java	(date 1768527824105)
+@@ -0,0 +1,18 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class FlatMap {
++    public static void main(String[] args) {
++        List<List<String>> list = Arrays.asList(
++                Arrays.asList("hello","world"),
++                Arrays.asList("lipenglin","perform")
++        );
++        List<String> list1 = list.stream()
++                .flatMap(List::stream)  //把多个流映射到一起，简单来说就是合并到一起
++                .collect(Collectors.toList());
++        System.out.println(list1);
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Sorted.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Sorted.java b/Stream/src/main/java/com/intermediate/Sorted.java
+new file mode 100644
+--- /dev/null	(date 1768527824090)
++++ b/Stream/src/main/java/com/intermediate/Sorted.java	(date 1768527824090)
+@@ -0,0 +1,16 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.Collections;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class Sorted {
++    public static void main(String[] args) {
++        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
++        List<Integer> list1 = list.stream()
++                .sorted(Collections.reverseOrder()) //倒序输出
++                .collect(Collectors.toList());
++        System.out.println(list1);
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Filter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Filter.java b/Stream/src/main/java/com/intermediate/Filter.java
+new file mode 100644
+--- /dev/null	(date 1768527824056)
++++ b/Stream/src/main/java/com/intermediate/Filter.java	(date 1768527824056)
+@@ -0,0 +1,14 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class Filter {
++
++    public static void main(String[] args) {
++        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
++        List<Integer> list2 = list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
++        System.out.println(list2);
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Peek.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Peek.java b/Stream/src/main/java/com/intermediate/Peek.java
+new file mode 100644
+--- /dev/null	(date 1768527824097)
++++ b/Stream/src/main/java/com/intermediate/Peek.java	(date 1768527824097)
+@@ -0,0 +1,17 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.Collections;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class Peek {
++    public static void main(String[] args) {
++        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
++        List<Integer> list1 = list.stream()
++                .sorted(Collections.reverseOrder())
++                .peek(System.out::println) //用于调试
++                .collect(Collectors.toList());
++        System.out.println(list1);
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Limit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Limit.java b/Stream/src/main/java/com/intermediate/Limit.java
+new file mode 100644
+--- /dev/null	(date 1768527824081)
++++ b/Stream/src/main/java/com/intermediate/Limit.java	(date 1768527824081)
+@@ -0,0 +1,13 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class Limit {
++    public static void main(String[] args) {
++        // LIMIT 限制数量
++        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
++        list.stream().limit(5).forEach(System.out::println);
++
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Skip.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Skip.java b/Stream/src/main/java/com/intermediate/Skip.java
+new file mode 100644
+--- /dev/null	(date 1768527824064)
++++ b/Stream/src/main/java/com/intermediate/Skip.java	(date 1768527824064)
+@@ -0,0 +1,12 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class Skip {
++    public static void main(String[] args) {
++        // 跳过前几个
++        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
++        list.stream().skip(5).forEach(System.out::println);
++    }
++}
+Index: Stream/src/main/java/com/intermediate/Distinct.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Stream/src/main/java/com/intermediate/Distinct.java b/Stream/src/main/java/com/intermediate/Distinct.java
+new file mode 100644
+--- /dev/null	(date 1768527824112)
++++ b/Stream/src/main/java/com/intermediate/Distinct.java	(date 1768527824112)
+@@ -0,0 +1,12 @@
++package com.intermediate;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class Distinct {
++    public static void main(String[] args) {
++        // distinct 去重
++        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 9);
++        list.stream().distinct().forEach(System.out::println);
++    }
++}
