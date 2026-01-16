@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Stream</module>
+        <module>Design_dome</module>
+        <module>Thread</module>
     </modules>
 
 

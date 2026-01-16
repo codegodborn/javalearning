@@ -5,19 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30c95f9b-7ba6-4289-9261-12faaeb80837" name="更改" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/Collectors/Collectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/createStream/CreateStreamForFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/createStream/Parallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/exam/exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/AnyMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/FindFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Min_orMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/ToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/AdapterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/AudiaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Adapter/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Singleton/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_dome/src/main/java/com/lipenglin/Singleton/SingletonDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamLearning2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/com/lipenglin/CreateThreadForFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/com/lipenglin/SemaphoreCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/com/lipenglin/ThreeThreadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/com/lipenglin/TicketDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/java/com/lipenglin/notifyAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/main/resources/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,47 +76,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;future1&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/javalearning/javalearning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.AnyMatch.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Collect.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Count.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Distinct.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Filter.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.FindFirst.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.ForEach.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Map.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Min_orMax.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Reduce.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Sorted.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.ToArray.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.exam.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "future1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/javalearning/javalearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AdapterPatternDemo.executor": "Run",
+    "应用程序.AnyMatch.executor": "Run",
+    "应用程序.Collect.executor": "Run",
+    "应用程序.Count.executor": "Run",
+    "应用程序.CreateThreadForFour$MyCallable.executor": "Run",
+    "应用程序.CreateThreadForFour$MyRunnable.executor": "Run",
+    "应用程序.CreateThreadForFour$MyThread.executor": "Run",
+    "应用程序.Distinct.executor": "Run",
+    "应用程序.Filter.executor": "Run",
+    "应用程序.FindFirst.executor": "Run",
+    "应用程序.ForEach.executor": "Run",
+    "应用程序.Main (1).executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Map.executor": "Run",
+    "应用程序.Min_orMax.executor": "Run",
+    "应用程序.Reduce.executor": "Run",
+    "应用程序.SemaphoreCase.executor": "Run",
+    "应用程序.SingletonDome.executor": "Run",
+    "应用程序.Sorted.executor": "Run",
+    "应用程序.ThreeThreadController.executor": "Run",
+    "应用程序.TicketDome.executor": "Run",
+    "应用程序.ToArray.executor": "Run",
+    "应用程序.exam.executor": "Run",
+    "应用程序.notifyAll.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.exam">
-    <configuration name="AnyMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.terminal.AnyMatch" />
-      <module name="Stream" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javalearning\javalearning\Design_dome\src\main\java\com\lipenglin\Adapter" />
+      <recent name="D:\javalearning\javalearning\Design_dome\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.SemaphoreCase">
+    <configuration name="CreateThreadForFour$MyCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lipenglin.CreateThreadForFour$MyCallable" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.terminal.*" />
+          <option name="PATTERN" value="com.lipenglin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.terminal.Count" />
-      <module name="Stream" />
+    <configuration name="SemaphoreCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lipenglin.SemaphoreCase" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.terminal.*" />
+          <option name="PATTERN" value="com.lipenglin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.terminal.FindFirst" />
-      <module name="Stream" />
+    <configuration name="ThreeThreadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lipenglin.ThreeThreadController" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.terminal.*" />
+          <option name="PATTERN" value="com.lipenglin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Min_orMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.terminal.Min_orMax" />
-      <module name="Stream" />
+    <configuration name="TicketDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lipenglin.TicketDome" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.terminal.*" />
+          <option name="PATTERN" value="com.lipenglin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.exam" />
-      <module name="Stream" />
+    <configuration name="notifyAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lipenglin.notifyAll" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exam.*" />
+          <option name="PATTERN" value="com.lipenglin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.exam" />
-        <item itemvalue="应用程序.FindFirst" />
-        <item itemvalue="应用程序.AnyMatch" />
-        <item itemvalue="应用程序.Count" />
-        <item itemvalue="应用程序.Min_orMax" />
+        <item itemvalue="应用程序.SemaphoreCase" />
+        <item itemvalue="应用程序.TicketDome" />
+        <item itemvalue="应用程序.notifyAll" />
+        <item itemvalue="应用程序.ThreeThreadController" />
+        <item itemvalue="应用程序.CreateThreadForFour$MyCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +234,9 @@
       <workItem from="1768527101351" duration="1492000" />
       <workItem from="1768528905505" duration="350000" />
       <workItem from="1768529356379" duration="2522000" />
-      <workItem from="1768532879403" duration="1280000" />
+      <workItem from="1768532879403" duration="5671000" />
+      <workItem from="1768591419018" duration="2434000" />
+      <workItem from="1768593924557" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -286,7 +318,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768527943634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1768534345704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768534345704</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1768534358365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768534358365</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
