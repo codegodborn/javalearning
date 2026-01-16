@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30c95f9b-7ba6-4289-9261-12faaeb80837" name="更改" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Distinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Limit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Peek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Skip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/intermediate/Sorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/Collectors/Collectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/createStream/CreateStreamForFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/createStream/Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/exam/exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/AnyMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/FindFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Min_orMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/main/java/com/terminal/ToArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,21 +80,30 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.AnyMatch.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Collect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Count.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Distinct.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Filter.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.FindFirst.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ForEach.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Main (1).executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Map.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Sorted.executor&quot;: &quot;Run&quot;
+    &quot;应用程序.Min_orMax.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Reduce.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Sorted.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ToArray.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.exam.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.Distinct">
-    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intermediate.Distinct" />
+  <component name="RunManager" selected="应用程序.exam">
+    <configuration name="AnyMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.terminal.AnyMatch" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="PATTERN" value="com.terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Limit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intermediate.Limit" />
+    <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.terminal.Count" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="PATTERN" value="com.terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Peek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intermediate.Peek" />
+    <configuration name="FindFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.terminal.FindFirst" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="PATTERN" value="com.terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Skip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intermediate.Skip" />
+    <configuration name="Min_orMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.terminal.Min_orMax" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="PATTERN" value="com.terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intermediate.Sorted" />
+    <configuration name="exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exam.exam" />
       <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intermediate.*" />
+          <option name="PATTERN" value="com.exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Distinct" />
-        <item itemvalue="应用程序.Skip" />
-        <item itemvalue="应用程序.Limit" />
-        <item itemvalue="应用程序.Peek" />
-        <item itemvalue="应用程序.Sorted" />
+        <item itemvalue="应用程序.exam" />
+        <item itemvalue="应用程序.FindFirst" />
+        <item itemvalue="应用程序.AnyMatch" />
+        <item itemvalue="应用程序.Count" />
+        <item itemvalue="应用程序.Min_orMax" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +201,10 @@
       <workItem from="1768525164636" duration="220000" />
       <workItem from="1768525571059" duration="374000" />
       <workItem from="1768525957473" duration="699000" />
-      <workItem from="1768527101351" duration="752000" />
+      <workItem from="1768527101351" duration="1492000" />
+      <workItem from="1768528905505" duration="350000" />
+      <workItem from="1768529356379" duration="2522000" />
+      <workItem from="1768532879403" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -262,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768527835358</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1768527943634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768527943634</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,5 +306,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Stream/src/main/java/com/exam/exam.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
