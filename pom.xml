@@ -5,8 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lipenglin</groupId>
-    <artifactId>StreamLearning</artifactId>
+    <artifactId>StreamLearning2</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Stream</module>
+    </modules>
 
 
 </project>
